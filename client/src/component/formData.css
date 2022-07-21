@@ -1,0 +1,22 @@
+#main{
+    border: 5px solid black;
+    margin-top: 15%;
+    margin-left: 40%;
+    padding: 20px 20px 20px 20px;
+    width: 16%;
+    background-color: lightblue;
+    text-align: center;
+}
+#button_link{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+}
+#image,#author,#description,#location{
+    border: 2px solid black;
+    color: white;
+    background-color: black;
+}
+#image,#author,#description,#location,#button_link{
+    margin: 5px;
+}

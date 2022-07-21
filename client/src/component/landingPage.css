@@ -1,0 +1,21 @@
+#landing1,#landing2{
+    display: block;
+    width: 48%;
+    margin: 1%;
+    float: left;
+    position: relative;
+}
+#image_landing{
+    height: 500px;
+    width: 99%;
+    border: 5px solid black;
+}
+#button_link_landing{
+    position: absolute;
+    left: 47%;
+    top: 200px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: 2px solid green;
+}

@@ -1,0 +1,61 @@
+.navbar{
+    height: 60px;
+    background-color: black;
+}
+.nav,.nav1{
+    
+    margin-top: 10px;
+    display: block;
+    float: left;  
+    margin: 5px; 
+    margin-left: 20px; 
+}
+.nav{
+    width: 90%;
+}
+header{
+    border: 2px solid black;
+    height: 40px;
+}
+.main{
+    background-color: lightblue;
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    display: block;
+    padding-top: 5px;
+    margin-left: 25%;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.user-information{
+    margin-top: 5px;
+}
+#img{
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+}
+.name-location{
+    width: 90%;
+}
+.threedot{
+    width:10%;
+}
+.name-location, .threedot{
+   display: block;
+   float: left;
+}
+#likes,#rocket{
+    height: 15px;
+    width: 15px;
+    margin:10px;
+}
+#three{
+    width: 90%;
+    margin-left: 70%;
+}
+
+
+
