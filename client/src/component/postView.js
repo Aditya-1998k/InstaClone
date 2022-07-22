@@ -13,7 +13,7 @@ const PostView=()=>{
     useEffect(()=> {
         axios({
             method: "GET",
-            url: "http://localhost:3001/post/add"
+            url: " https://instaclone-01-node.herokuapp.com/post/add"
         }).then((res)=> {
             console.log(res);
             setpost(res.data.sort())
