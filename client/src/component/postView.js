@@ -12,11 +12,11 @@ const PostView=()=>{
     const [post, setpost] = useState([]);
     useEffect(()=> {
         axios({
-            method: "GET",
-            url: " https://instaclone-01-node.herokuapp.com/post/add"
+            method:"GET",
+            url: "https://instaclone-aditya-backend.herokuapp.com/post/add"
         }).then((res)=> {
             console.log(res);
-            setpost(res.data.sort())
+            setpost(res.data)
         }).catch((err)=> {
             console.log(err)
         })
@@ -33,7 +33,7 @@ const PostView=()=>{
             {
                             post.map((user, i)=>{
                                     return (
-                                        <>
+                                        
                                         <div key={i} className='main' >
                                             <div className="user-information">
                                              <span className="name-location">
@@ -55,7 +55,7 @@ const PostView=()=>{
                                                 <img id="rocket" src={rocket} alt="rocket"></img>
                                             </div>
                                         </div>
-                                        </>
+                                        
                                     )
                             })
                         }

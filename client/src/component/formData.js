@@ -13,7 +13,7 @@ const FormData=()=>{
     const handleonclick=()=>{
         console.log(postdata);
         axios({
-            url:" https://instaclone-01-node.herokuapp.com/post/add",
+            url:"https://instaclone-aditya-backend.herokuapp.com/post/add",
             method:"POST",
             data:postdata
         }).then((res)=>{
