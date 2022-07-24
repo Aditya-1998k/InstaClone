@@ -36,7 +36,7 @@ app.get("/", (req, res)=>{
 //it have two callback fxn which are data and err funciton 
 //on succesfully connected it show successfully connected to database in terminal other wise show err
 //we define collection inside modals
-mongoose.connect("mongodb+srv://aditya:test123@aditya.qbb9d.mongodb.net/?retryWrites=true&w=majority", (data)=>{
+mongoose.connect("mongodb+srv://aditya:<password>@aditya.qbb9d.mongodb.net/?retryWrites=true&w=majority", (data)=>{
    console.log("Successfully connected to database")
 }, (err)=>{
    console.log(err)
